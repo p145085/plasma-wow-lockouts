@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+  <group name="General">
+    <entry name="region" type="String">
+      <label>Battle.net region: us, eu, kr or tw</label>
+      <default>us</default>
+    </entry>
+    <entry name="clientId" type="String">
+      <label>Battle.net API client ID</label>
+      <default></default>
+    </entry>
+    <entry name="clientSecret" type="String">
+      <label>Battle.net API client secret</label>
+      <default></default>
+    </entry>
+    <entry name="characters" type="String">
+      <label>Characters, one "Name-Realm" per line</label>
+      <default></default>
+    </entry>
+    <entry name="includeDungeons" type="Bool">
+      <label>Also show Mythic dungeon lockouts</label>
+      <default>true</default>
+    </entry>
+    <entry name="resetDay" type="Int">
+      <label>Weekly reset weekday in UTC (0 = Sunday), -1 = the region's default</label>
+      <default>-1</default>
+    </entry>
+    <entry name="resetHour" type="Int">
+      <label>Weekly reset hour in UTC when resetDay is set</label>
+      <default>15</default>
+    </entry>
+    <entry name="refreshMinutes" type="Int">
+      <default>30</default>
+    </entry>
+    <entry name="showCountInPanel" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="cachedResults" type="String">
+      <label>Characters and kills from the last successful fetch (JSON)</label>
+      <default></default>
+    </entry>
+  </group>
+</kcfg>

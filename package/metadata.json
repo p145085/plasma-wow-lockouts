@@ -1,0 +1,17 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [{ "Name": "Emil Johansson", "Email": "emil.a.johansson@gmail.com" }],
+        "BugReportUrl": "https://github.com/p145085/plasma-wow-lockouts/issues",
+        "Category": "Online Services",
+        "Description": "Which World of Warcraft raids are my characters saved to this week? Reads boss kills from the Battle.net API and clears them at the weekly reset.",
+        "EnabledByDefault": true,
+        "Icon": "object-locked",
+        "Id": "com.github.p145085.wowlockouts",
+        "License": "GPL-3.0-or-later",
+        "Name": "WoW Raid Lockouts",
+        "Version": "1.0.0",
+        "Website": "https://github.com/p145085/plasma-wow-lockouts"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
