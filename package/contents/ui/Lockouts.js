@@ -174,8 +174,8 @@ function formatCountdown(ms) {
     var h = Math.floor((m % 1440) / 60)
     m = m % 60
     if (d > 0)
-        return d + "d " + h + "h"
+        return d + "d, " + h + "h, " + m + "m"
     if (h > 0)
-        return h + "h " + m + "m"
+        return h + "h, " + m + "m"
     return m + "m"
 }

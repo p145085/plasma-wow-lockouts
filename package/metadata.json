@@ -10,7 +10,7 @@
         "Id": "com.github.p145085.wowlockouts",
         "License": "GPL-3.0-or-later",
         "Name": "WoW Raid Lockouts",
-        "Version": "1.0.0",
+        "Version": "1.1.0",
         "Website": "https://github.com/p145085/plasma-wow-lockouts"
     },
     "X-Plasma-API-Minimum-Version": "6.0"

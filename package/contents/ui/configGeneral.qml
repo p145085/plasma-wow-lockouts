@@ -18,6 +18,7 @@ KCM.SimpleKCM {
     property alias cfg_resetHour: resetHour.value
     property alias cfg_refreshMinutes: refreshMinutes.value
     property alias cfg_showCountInPanel: showCount.checked
+    property alias cfg_showCountdownInPanel: showCountdown.checked
 
     readonly property var regions: [
         { value: "us", text: i18n("Americas & Oceania") },
@@ -155,6 +156,10 @@ KCM.SimpleKCM {
         QQC2.CheckBox {
             id: showCount
             text: i18n("Number of lockouts on the panel icon")
+        }
+        QQC2.CheckBox {
+            id: showCountdown
+            text: i18n("Time until the weekly reset on the panel")
         }
         QQC2.SpinBox {
             id: refreshMinutes

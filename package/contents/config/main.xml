@@ -38,6 +38,9 @@
     <entry name="showCountInPanel" type="Bool">
       <default>true</default>
     </entry>
+    <entry name="showCountdownInPanel" type="Bool">
+      <default>false</default>
+    </entry>
     <entry name="cachedResults" type="String">
       <label>Characters and kills from the last successful fetch (JSON)</label>
       <default></default>

@@ -13,17 +13,17 @@ weekly reset.
 - Click a lockout to see which bosses are down and when they died
 - Several characters, including ones on different realms
 - Countdown to the weekly reset for your region; lockouts disappear the moment it passes
-- Panel icon with the number of lockouts this week
+- Panel icon with the number of lockouts this week, and optionally the time until the reset
 
 ## Install
 
 From the KDE Store: *Add Widgets… → Get New Widgets… → Download New Plasma Widgets* and search for
 **WoW Raid Lockouts**.
 
-Or download `wow-lockouts-1.0.0.plasmoid` from the releases page and run:
+Or download `wow-lockouts-1.1.0.plasmoid` from the releases page and run:
 
 ```sh
-kpackagetool6 -t Plasma/Applet -i wow-lockouts-1.0.0.plasmoid
+kpackagetool6 -t Plasma/Applet -i wow-lockouts-1.1.0.plasmoid
 ```
 
 Or from source:
@@ -123,7 +123,7 @@ The widget only talks to `oauth.battle.net` and `<region>.api.blizzard.com`.
 ## Build a .plasmoid
 
 ```sh
-cd package && zip -r ../wow-lockouts-1.0.0.plasmoid . && cd ..
+cd package && zip -r ../wow-lockouts-1.1.0.plasmoid . && cd ..
 ```
 
 ## Notes
